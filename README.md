@@ -31,7 +31,8 @@
 <img width="951" height="282" alt="image" src="https://github.com/user-attachments/assets/4a8af527-7422-4f21-9e22-9280b5c2583d" />
 <img width="956" height="344" alt="image" src="https://github.com/user-attachments/assets/e48e6e80-9177-47b0-aa7f-fc7079c32fc3" />
 ​​SPI​​：高速、全双工，适合 Flash、ADC 等，但硬件复杂。
-​​UART​​：简单、点对点，适合调试，但需固定波特率。
+​​UART​​：简单、点对点，适合调试，但需固定波特率，仅支持异步通信
+USART：不仅支持同步还支持异步，有时钟信号，不需要波特率
 ​​I2C​​：多设备共享、中等速度，适合传感器，但需上拉电阻。
 
 
